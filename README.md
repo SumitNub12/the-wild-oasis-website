@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The Wild Oasis Website
 
-## Getting Started
+## Description
+The Wild Oasis is a user-friendly web application designed for customers to explore, book, and manage cabin stays seamlessly. The platform provides an intuitive interface for browsing available cabins, filtering by capacity, and making reservations. Users can also manage their profiles, including updating personal details and profile photos. The authentication system allows sign-in and sign-up using Google via Next-Auth, ensuring a secure and hassle-free experience.
 
-First, run the development server:
+## Live Demo & Repository
+- **Live:** [The Wild Oasis - Live](https://the-wild-oasis-website-sumit-jangra.vercel.app/)
+- **GitHub:** [The Wild Oasis - GitHub](https://github.com/SumitNub12/the-wild-oasis-website.git)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
+- **Frontend:** Next.js, Tailwind CSS
+- **Authentication:** Next-Auth (Auth.js) with Google OAuth
+- **Backend:** Supabase
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- **Cabin Booking:** Users can browse available cabins, view details, and make reservations.
+- **Filter by Capacity:** Easily find cabins that match their group size requirements.
+- **Edit Profile:** Users can update personal information such as name and profile photo.
+- **Authentication:** Google login and sign-up using Next-Auth.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Installation & Setup
+1. Clone the repository:
+   ```sh
+   git clone [https://github.com/your-repo-link.git](https://github.com/SumitNub12/the-wild-oasis-website.git]
+   cd the-wild-oasis-website
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Create a `.env.local` file in the root directory and add the following environment variables:
+   ```env
+   SUPABASE_URL=
+   NEXTAUTH_URL=
+   NEXTAUTH_SECRET=
+   AUTH_GOOGLE_ID=
+   AUTH_GOOGLE_SECRET=
+   ```
+4. Run the development server:
+   ```sh
+   npm run dev
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Deployment
+This project can be deployed on Vercel, Netlify, or any platform that supports Next.js. Ensure your environment variables are configured correctly.
 
-## Learn More
+## Contributing
+Feel free to submit issues or pull requests to improve the project.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
