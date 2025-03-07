@@ -21,7 +21,7 @@ The Wild Oasis is a user-friendly web application designed for customers to expl
 ## Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone [https://github.com/your-repo-link.git](https://github.com/SumitNub12/the-wild-oasis-website.git]
+   git clone https://github.com/your-repo-link.git](https://github.com/SumitNub12/the-wild-oasis-website.git
    cd the-wild-oasis-website
    ```
 2. Install dependencies:
